@@ -39,6 +39,6 @@ zuul:
       serviceId: micro-web
     zuul-server:
       #Zuul拦截的url
-      path: /local/**
+      path: /chiyu/**
       #拦截到url路由到哪里
       url: forward:/local
